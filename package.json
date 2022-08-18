@@ -1,0 +1,19 @@
+{
+  "name": "project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app/index.js"
+  },
+  "author": "Bui Quang Thanh",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/yargs": "^17.0.11",
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "yargs": "^17.1.1-candidate.0"
+  }
+}
